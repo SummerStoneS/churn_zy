@@ -21,5 +21,8 @@ GBDT is used and model params are adjusted based on the performance of OOT data.
 gbr = GradientBoostingRegressor(loss='ls', max_depth=8, learning_rate=0.04, n_estimators=150, min_samples_split=10, min_samples_leaf=10)
 ```
                                 
-## 
+## implementation
+top 20% customers that have highest probability of churn will be implemented retain methods.
+In order to make targeted and customized moves towards these churning customers, we cluster them using 5 dimensions variables.
+
 
