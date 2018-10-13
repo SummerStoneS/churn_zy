@@ -1,10 +1,10 @@
 # churn_zy
 churn prevention of high end customers
 
-1.preprocess.py
-2.modeling.py
-3.predict.py
-4.cluster.py
+-1.preprocess.py
+-2.modeling.py
+-3.predict.py
+-4.cluster.py
 
 ## x and y
 churn definition: month7 aum drops more than 20% over past 6 months' average aum.
