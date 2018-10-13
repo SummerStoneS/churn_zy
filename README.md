@@ -17,8 +17,8 @@ There are 5 snapshots in total. 20180331, 20171231, 20180831, 20180630 and 20180
 ## models and params
 in the modeling step, training data consists of 3 periods data, 20180331, 20171231 and 20170831.the out of time test data is 20180630. 
 GBDT is used and model params are adjusted based on the performance of OOT data.
-```gbr = GradientBoostingRegressor(loss='ls', max_depth=8, learning_rate=0.04, n_estimators=150, min_samples_split=10,
-                                min_samples_leaf=10)```
+```gbr = GradientBoostingRegressor(loss='ls', max_depth=8, learning_rate=0.04, n_estimators=150, min_samples_split=10, min_samples_leaf=10)
+```
                                 
 ## 
 
